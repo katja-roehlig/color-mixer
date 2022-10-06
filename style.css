@@ -1,0 +1,27 @@
+/* Global Selectors ************************************************************/
+* {
+  box-sizing: border-box;
+}
+/* Tag Selectors ************************************************************/
+body {
+  margin: 0;
+}
+
+/* Class Selectors ************************************************************/
+.header-style {
+  padding-inline: 1em;
+  padding-block: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 235, 205, 0.18);
+}
+
+/* Id Selectors ************************************************************/
+#red {
+  accent-color: red;
+}
+
+#green {
+  accent-color: green;
+}
