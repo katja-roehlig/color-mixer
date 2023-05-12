@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Color Mixer</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header-style">
+      <div class="range-container">
         <div>
-            <label for="red">r</label>
-            <input type="range" id="red" name=" " min="0" max="255" value="50" step="1">
-
-            <label for="green">g</label>
-            <input type="range" id="green" name=" " min="0" max="255" value="50" step="1">
-
-            <label for="blue">b</label>
-            <input type="range" id="blue" name=" " min="0" max="255" value="50" step="1">
+          <label for="red">r</label>
+          <input
+            type="range"
+            id="red"
+            name=" "
+            min="0"
+            max="255"
+            value="50"
+            step="1"
+          />
         </div>
-        <p id="number">0</p>
-
+        <div>
+          <label for="green">g</label>
+          <input
+            type="range"
+            id="green"
+            name=" "
+            min="0"
+            max="255"
+            value="50"
+            step="1"
+          />
+        </div>
+        <div>
+          <label for="blue">b</label>
+          <input
+            type="range"
+            id="blue"
+            name=" "
+            min="0"
+            max="255"
+            value="50"
+            step="1"
+          />
+        </div>
+      </div>
+      <p id="number" class="hex-number">0</p>
     </header>
     <main></main>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
